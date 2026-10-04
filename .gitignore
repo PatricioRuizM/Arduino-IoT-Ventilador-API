@@ -1,0 +1,30 @@
+# Entorno virtual
+.venv/
+venv/
+ENV/
+env/
+
+# Variables de entorno y secretos (Render debe configurarlas en su Dashboard)
+.env
+.env.*
+!.env.example
+
+# Base de datos SQLite local
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+iot_mediciones.db
+
+# Cache y archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# IDEs (PyCharm / VS Code)
+.idea/
+.vscode/
+
+# Logs y temporales
+*.log
